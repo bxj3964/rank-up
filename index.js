@@ -1,4 +1,6 @@
-(() => {
+window.onload = background;
+
+function background() {
     'use strict';
     // Page is loaded
     const objects = document.getElementsByClassName('asyncImage');
@@ -14,4 +16,4 @@
           item.style.backgroundImage = `url(${item.dataset.src})`;
       };
     });
-  })();
+  };
