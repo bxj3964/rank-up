@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url("../media/Velvet.Room_lower.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #494d9f;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:  100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#title{
+    background-color: #33333380;
+    background-image: linear-gradient(to bottom, #333333b3, #33333300);
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
+    margin: 0;
+    font-size: 3em;
+    color: #d5d4d4;
+}
+
+#logo{
+    padding: 1em;
+    width: 6em;
+    float: left;
+    padding-right: 1%;
+}
+
+hr {
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+}
+
+img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom{
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #35cdff, 0 0 50px #35cdff, 0 0 60px #3541ff, 0 0 70px #3541ff
+}
+
+a{
+    padding-left: 30%;
+    padding-right: 30%;
+}

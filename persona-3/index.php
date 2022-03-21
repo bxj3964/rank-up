@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>P3 Home | Rank Up!</title>
-		<link rel="icon" href="../media/Gekkogamijin2.0_hollow.png">
-		<link rel="stylesheet" media="screen and (orientation: landscape)" href="../css/persona_home_desktop.css">
-		<link rel="stylesheet" media="screen and (orientation: portrait)" href="../css/persona_home_mobile.css">
-		<link rel="stylesheet" href="../css/persona_3_home.css">
+		<link rel="icon" href="../assets/media/Gekkogamijin2.0_hollow.png">
+		<link rel="stylesheet" media="screen and (orientation: landscape)" href="../assets/css/persona_home_desktop.css">
+		<link rel="stylesheet" media="screen and (orientation: portrait)" href="../assets/css/persona_home_mobile.css">
+		<link rel="stylesheet" href="../assets/css/persona_3_home.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 	<body scroll="no">
 		<div class="grid">
 			<div id="header">
 				<a href="../index.html">
-					<img id="logo" src="../media/Gekkogamijin2.0_hollow.png">
+					<img id="logo" src="../assets/media/Gekkogamijin2.0_hollow.png">
 					<h1 id="title">Rank Up!</h1>
 				</a>
 			</div>
