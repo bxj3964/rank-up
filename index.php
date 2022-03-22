@@ -3,7 +3,7 @@
 	$css='index';
 	$script='<script type="text/javascript" src="index.js"></script>';
 	$attribute='class="asyncImage" data-source="assets/media/Velvet.Room.jpg" scroll="no"';
-	$background=$path.'/media/Velvet.Room_lower2.jpg'
+	$background=$path.'/media/Velvet.Room_lower2.jpg';
 	include $path.'assets/inc/header.php';
 ?>
 			<a href="persona-3/index.php" id="p3">
