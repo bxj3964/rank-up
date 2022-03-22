@@ -9,7 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<?php echo $script?>
 	</head>
-	<body <?php echo $attribute?>>
+	<body style="background-image: url('<?php echo $background?>');" <?php echo $attribute?>>
 		<div class="grid">
 			<div id="header">
 				<img id="logo" src="assets/media/Gekkogamijin2.0_hollow.png">
