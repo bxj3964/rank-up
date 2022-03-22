@@ -1,3 +1,10 @@
+<?php
+	$path='../';
+	$css='persona_home';
+	$script='<script type="text/javascript" src="index.js"></script>';
+	$attribute=' class="asyncImage" data-source="assets/media/Velvet.Room.jpg" scroll="no"';
+	include $path.'assets/inc/header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -17,12 +24,11 @@
 					<h1 id="title">Rank Up!</h1>
 				</a>
 			</div>
-			<img id="p3" src="media/p3_alt.png" alt="Persona 3 Logo" onmouseover="this.src='media/p3_alt_glow.png';" onmouseout="this.src='media/p3_alt.png';">
-			<img id="p4" src="media/p4_alt.png" alt="Persona 4 Logo" onmouseover="this.src='media/p4_alt_glow.png';" onmouseout="this.src='media/p4_alt.png';">
-			<img id="p5" src="media/p5_alt.png" alt="Persona 5 Logo" onmouseover="this.src='media/p5_alt_glow.png';" onmouseout="this.src='media/p5_alt.png';">
+			<img id="p3" src="../media/p3_alt.png" alt="Persona 3 Logo" onmouseover="this.src='media/p3_alt_glow.png';" onmouseout="this.src='media/p3_alt.png';">
+			<img id="p4" src="../media/p4_alt.png" alt="Persona 4 Logo" onmouseover="this.src='media/p4_alt_glow.png';" onmouseout="this.src='media/p4_alt.png';">
+			<img id="p5" src="../media/p5_alt.png" alt="Persona 5 Logo" onmouseover="this.src='media/p5_alt_glow.png';" onmouseout="this.src='media/p5_alt.png';">
 			<div id="bottom">
 				<h1>Thou hast established a new bond...</h1>
 			</div>
 		</div>
     </body>
-</html>

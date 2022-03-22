@@ -9,3 +9,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<?php echo $script?>
 	</head>
+	<body>
+		<div class="grid">
+			<div id="header">
+				<img id="logo" src="assets/media/Gekkogamijin2.0_hollow.png">
+				<h1 id="title">Rank Up!</h1>
+			</div>
