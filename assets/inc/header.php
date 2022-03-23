@@ -12,6 +12,8 @@
 	<body style="background-image: url('<?php echo $background?>');" <?php echo $attribute?>>
 		<div class="grid">
 			<div id="header">
-				<img id="logo" src="assets/media/Gekkogamijin2.0_hollow.png">
-				<h1 id="title">Rank Up!</h1>
+				<a href="<?php echo $path?>index.php">
+					<img id="logo" src="assets/media/Gekkogamijin2.0_hollow.png">
+					<h1 id="title">Rank Up!</h1>
+				</a>
 			</div>
