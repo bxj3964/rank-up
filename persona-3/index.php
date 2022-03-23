@@ -1,5 +1,5 @@
 <?php
-	$path='./';
+	$path='../';
 	$css='persona_home';
 	$background=$path.'/media/P3D-Stage-5.jpg';
 	$assets='';
