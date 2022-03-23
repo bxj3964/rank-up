@@ -73,7 +73,7 @@ img{
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #35cdff, 0 0 50px #35cdff, 0 0 60px #3541ff, 0 0 70px #3541ff
 }
 
-a{
+a, a:hover, a:visited, a:active{
     padding-left: 12.5%;
     padding-right: 12.5%;
     text-decoration: none;

@@ -13,7 +13,7 @@
 		<div class="grid">
 			<div id="header">
 				<a href="<?php echo $path?>index.php">
-					<img id="logo" src="assets/media/Gekkogamijin2.0_hollow.png">
+					<img id="logo" src="<?php echo $path?>assets/media/Gekkogamijin2.0_hollow.png">
 					<h1 id="title">Rank Up!</h1>
 				</a>
 			</div>
