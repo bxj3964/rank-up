@@ -6,9 +6,6 @@
 	include $path.'assets/inc/header.php';
 ?>
 			<a>
-				<img id="p3" src="<?php echo $path?>media/p3_alt.png" alt="Persona 3 Logo" onmouseover="this.src='<?php echo $path?>media/p3_alt_glow.png';" onmouseout="this.src='<?php echo $path?>media/p3_alt.png';">
-			</a>
-			<a>
 				<img id="p4" src="<?php echo $path?>media/p4_alt.png" alt="Persona 4 Logo" onmouseover="this.src='<?php echo $path?>media/p4_alt_glow.png';" onmouseout="this.src='<?php echo $path?>media/p4_alt.png';">
 			</a>
 			<a>

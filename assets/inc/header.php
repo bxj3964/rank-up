@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<title><?php echo $title?>Rank Up!</title>
 		<link rel="icon" href="<?php echo $path?>assets/media/Gekkogamijin2.0_hollow.png">
+		<link rel="stylesheet" media="screen and (orientation: landscape)" href="<?php echo $path?>assets/css/index_desktop.css">
+		<link rel="stylesheet" media="screen and (orientation: portrait)" href="<?php echo $path?>assets/css/index_mobile.css">
 		<link rel="stylesheet" media="screen and (orientation: landscape)" href="<?php echo $path?>assets/css/<?php echo $css?>_desktop.css">
 		<link rel="stylesheet" media="screen and (orientation: portrait)" href="<?php echo $path?>assets/css/<?php echo $css?>_mobile.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
