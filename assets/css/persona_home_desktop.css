@@ -80,5 +80,6 @@ a, a:hover, a:visited, a:active{
 }
 
 #home{
-    padding: 0;
+    padding-left: 0%;
+    padding-right: 0%;
 }
