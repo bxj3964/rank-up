@@ -1,4 +1,5 @@
 <?php
+	$conn = pg_connect(getenv("DATABASE_URL"));
 	$path='../';
 	$css='persona_home';
 	$background=$path.'assets/media/P3D-Stage-5.jpg';
