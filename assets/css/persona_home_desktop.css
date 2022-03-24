@@ -12,3 +12,7 @@
     grid-column: 3;
     padding-right: 25%;
 }
+
+#bottom{
+    text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #858585, 0 0 40px #22cc2a, 0 0 50px #22cc2a, 0 0 60px #00ff0c, 0 0 70px #00ff0c;
+}
