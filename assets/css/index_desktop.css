@@ -78,3 +78,7 @@ a, a:hover, a:visited, a:active{
     padding-right: 12.5%;
     text-decoration: none;
 }
+
+#home{
+    padding: 0;
+}
