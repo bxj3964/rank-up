@@ -71,7 +71,7 @@ img{
     color: white;
     grid-column: 1 / span 5;
     text-align: center;
-    text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #858585, 0 0 40px #3586ff, 0 0 50px #3586ff, 0 0 60px #35cdff, 0 0 70px #35cdff
+    text-shadow: 0 0 10px #2661ff, 0 0 20px #2661ff, 0 0 30px #2661ff, 0 0 40px #3541ff, 0 0 50px #3541ff, 0 0 60px #35cdff, 0 0 70px #35cdff;
 }
 
 a, a:hover, a:visited, a:active{
