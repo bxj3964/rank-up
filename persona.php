@@ -25,5 +25,4 @@
 			<div id="bottom">
 				<h1>Thou hast established a new bond...</h1>
 			</div>
-		</div>
-    </body>
+<?php include $path.'assets/inc/footer.php'?>
