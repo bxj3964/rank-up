@@ -11,7 +11,7 @@
 	$path='./';
 	$css='persona_home';
 	$background=$path.'assets/media/'.$result[2];
-	$attribute='';
+	$attribute='class=p'.$result[0];
 	include $path.'assets/inc/header.php';
 ?>
 			<a id="base">
@@ -20,7 +20,7 @@
 			<a id="deluxe">
 				<img src="<?php echo $path?>assets/media/<?php echo $result[6]?>.png" alt="<?php echo $result[5]?>" onmouseover="this.src='<?php echo $path?>assets/media/<?php echo $result[6]?>_glow.png';" onmouseout="this.src='<?php echo $path?>assets/media/<?php echo $result[6]?>.png';">
 			</a>
-			<div id="bottom">
+			<div id="bottom" class="p<?php echo $result[0]?>">
 				<h1>Thou hast established a new bond...</h1>
 			</div>
 <?php include $path.'assets/inc/footer.php'?>

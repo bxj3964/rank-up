@@ -15,6 +15,18 @@
     align-self: center;
 }
 
-#bottom{
+#bottom.p3{
     text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #858585, 0 0 40px #22cc2a, 0 0 50px #22cc2a, 0 0 60px #00ff0c, 0 0 70px #00ff0c;
+}
+
+body.p3{
+    background-color: #263926;
+}
+
+body.p4{
+    background-color: #ecc40a;
+}
+
+#bottom.p3{
+    text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #858585, 0 0 40px #ccc922, 0 0 50px #ccc922, 0 0 60px #eeff00, 0 0 70px #eeff00;
 }
