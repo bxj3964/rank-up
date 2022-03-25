@@ -10,7 +10,7 @@
 	$title='Persona '.$result[0];
 	$path='./';
 	$css='persona_home';
-	$background=$path.'assets/media/'.$result[2]];
+	$background=$path.'assets/media/'.$result[2];
 	$attribute='';
 	include $path.'assets/inc/header.php';
 ?>
