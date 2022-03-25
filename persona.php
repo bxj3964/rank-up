@@ -4,7 +4,7 @@
 	if($conn && !empty($_GET['game']) && in_array($_GET['game'], $games){
 		$result = pg_prepare($conn, "query", 'SELECT * FROM Page WHERE id = $1');
 		$result = pg_execute($conn, "query", array($_GET['game']));
-		$result = $result[0]
+		$result = $result[0];
 	}
 	else{
 		echo 'Error fetching page';
