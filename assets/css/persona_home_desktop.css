@@ -24,9 +24,9 @@ body.p3{
 }
 
 body.p4{
-    background-color: #ecc40a;
+    background-color: #8a7d07;
 }
 
 #bottom.p4{
-    text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #858585, 0 0 40px #ccc922, 0 0 50px #ccc922, 0 0 60px #eeff00, 0 0 70px #eeff00;
+    text-shadow: 0 0 10px #000000, 0 0 20px #373737, 0 0 30px #c9c914, 0 0 40px #c3c026, 0 0 50px #ccc922, 0 0 60px #eeff00, 0 0 70px #eeff00;
 }
