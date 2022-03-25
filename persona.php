@@ -7,7 +7,7 @@
 		$result = pg_fetch_row($result);
 	}
 	pg_close($conn);
-	$title='Persona '.$result[0];
+	$title='Persona '.$result[0].' | ';
 	$path='./';
 	$css='persona_home';
 	$background=$path.'assets/media/'.$result[2];
