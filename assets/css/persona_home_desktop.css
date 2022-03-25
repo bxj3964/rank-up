@@ -30,3 +30,11 @@ body.p4{
 #bottom.p4{
     text-shadow: 0 0 10px #000000, 0 0 20px #373737, 0 0 30px #c9c914, 0 0 40px #c3c026, 0 0 50px #ccc922, 0 0 60px #eeff00, 0 0 70px #eeff00;
 }
+
+body.p5{
+    background-color: #2d0800;
+}
+
+#bottom.p5{
+    text-shadow: 0 0 10px #858585, 0 0 20px #858585, 0 0 30px #f02424, 0 0 40px #f02424, 0 0 50px #f02424, 0 0 60px #8a1414, 0 0 70px #8a1414;
+}
