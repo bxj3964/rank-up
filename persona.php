@@ -1,5 +1,5 @@
 <?php
-	$conn = pg_connect(getenv("DATABASE_URL"));
+	$conn = pg_connect(getenv("DATABASE_URL")) or die('Could not connect: ' . pg_last_error());
 	$games = array("3", "4", "5");
 	if($conn && !empty($_GET['game']) && in_array($_GET['game'], $games){
 		$result = pg_prepare($conn, "query", "SELECT * FROM Page WHERE id = $1");
@@ -9,7 +9,7 @@
 	else{
 		echo 'Error fetching page';
 	}
-	pg_close($dbconn);
+	pg_close($conn);
 	$path='./';
 	$css='persona_home';
 	$background=$path.'assets/media/'.$result[2];
