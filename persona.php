@@ -15,12 +15,7 @@
 	$assets='';
 	include $path.'assets/inc/header.php';
 ?>
-			<a id="base">
-				<img src="<?php echo $path?>assets/media/<?php echo $result[4]?>.png" alt="<?php echo $result[3]?>" onmouseover="this.src='<?php echo $path?>assets/media/<?php echo $result[4]?>_glow.png';" onmouseout="this.src='<?php echo $path?>assets/media/<?php echo $result[4]?>.png';">
-			</a>
-			<a id="deluxe">
-				<img src="<?php echo $path?>assets/media/<?php echo $result[6]?>.png" alt="<?php echo $result[5]?>" onmouseover="this.src='<?php echo $path?>assets/media/<?php echo $result[6]?>_glow.png';" onmouseout="this.src='<?php echo $path?>assets/media/<?php echo $result[6]?>.png';">
-			</a>
+			
 			<div id="bottom">
 				<h1>Thou hast established a new bond...</h1>
 			</div>
