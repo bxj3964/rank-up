@@ -1,6 +1,6 @@
 <?php
 	$conn = pg_connect(getenv("DATABASE_URL")) or die('Could not connect: ' . pg_last_error());
-	$games = array("3", "4", "5")
+	$games = array("3", "4", "5");
 	if($conn && !empty($_GET['game']) && in_array($_GET['game'], $games){
 		$result = pg_prepare($conn, "query", 'SELECT * FROM Page WHERE id = $1');
 		$result = pg_execute($conn, "query", array($_GET['game']));
