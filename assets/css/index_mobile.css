@@ -16,3 +16,20 @@ body{
 #logo{
     width: 6em;
 }
+
+#p3{
+    grid-column: 1;
+}
+
+#p4{
+    grid-column: 1;
+}
+
+#p5{
+    grid-column: 1;
+}
+
+a{
+    padding-left: 30%;
+    padding-right: 30%;
+}
