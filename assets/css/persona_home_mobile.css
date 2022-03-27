@@ -1,3 +1,7 @@
 .grid{
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+#base, #deluxe{
+    grid-column: 1;
+}
