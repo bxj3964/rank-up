@@ -25,7 +25,11 @@ body{
     grid-column: 1;
 }
 
-a{
+a, a:hover, a:visited, a:active{
     padding-left: 30%;
     padding-right: 30%;
+}
+
+h1{
+    font-size: 1.5em;
 }
