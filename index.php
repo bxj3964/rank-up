@@ -2,7 +2,7 @@
 	$path='./';
 	$css='index';
 	$script='<script type="text/javascript" src="'.$path.'assets/js/index.js"></script>';
-	$attribute='class="asyncImage" data-source="./assets/media/Velvet.Room.jpg" scroll="no"';
+	$attribute='class="asyncImage" data-source="./assets/media/Velvet.Room.jpg"';
 	$background=$path.'assets/media/Velvet.Room_lower2.jpg';
 	include $path.'assets/inc/header.php';
 ?>
